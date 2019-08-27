@@ -3,7 +3,7 @@
 
 # 用法如下
 
-``
+```android
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,4 +33,4 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-``
+```
