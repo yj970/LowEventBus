@@ -1,8 +1,9 @@
 # LowEventBus
 低配版EventBus，学习用
 
-#用法如下
-`
+# 用法如下
+
+` 
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -31,4 +32,4 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-`
+ `
