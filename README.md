@@ -3,7 +3,8 @@
 
 # 用法如下
 
-``android
+``
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -31,4 +32,5 @@ public class MainActivity extends AppCompatActivity {
         LowEventBus.unRegister(this);
     }
 }
+
 ``
