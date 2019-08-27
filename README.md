@@ -3,7 +3,7 @@
 
 # 用法如下
 
-```android
+```java
 
 public class MainActivity extends AppCompatActivity {
 
