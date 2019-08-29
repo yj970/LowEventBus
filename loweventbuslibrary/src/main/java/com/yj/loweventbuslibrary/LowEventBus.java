@@ -96,8 +96,10 @@ public class LowEventBus {
             method.invoke(register, event);// 执行方法
         } catch (IllegalAccessException e) {
             e.printStackTrace();
+            new RuntimeException("IllegalAccessException "+e.getMessage());
         } catch (InvocationTargetException e) {
             e.printStackTrace();
+            new RuntimeException("InvocationTargetException "+e.getMessage());
         }
     }
 }
